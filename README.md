@@ -4,11 +4,9 @@
 
 Una aplicación web interactiva de Pokédex que te permite explorar información detallada de los primeros 649 Pokémon. Incluye características como búsqueda por nombre o número, visualización de estadísticas, tipos, descripciones en español y reproducción de sonidos de Pokémon.
 
-## � Vista Previa
+## 🌟 Vista Previa
 
-[![Vista previa de la Pokédex](https://i.imgur.com/your-screenshot.png)](https://my-pokedex-2w1u.onrender.com/)
-
-> *Haz clic en la imagen para probar la aplicación en vivo*
+![Vista previa de la Pokédex](https://i.imgur.com/ER7vT9b.png)
 
 ## 🚀 Características
 
@@ -30,12 +28,7 @@ Una aplicación web interactiva de Pokédex que te permite explorar información
 - ResponsiveVoice para la síntesis de voz
 - Desplegado en Render
 
-## 🚀 Demo en Vivo
-
-Puedes probar la aplicación ahora mismo en:
-[![Ver Demo](https://img.shields.io/badge/Ver_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://my-pokedex-2w1u.onrender.com/)
-
-## �️ Instalación local
+##  Instalación local
 
 1. Clona el repositorio:
    ```bash
