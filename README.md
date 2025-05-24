@@ -4,10 +4,11 @@
 
 Una aplicación web interactiva de Pokédex que te permite explorar información detallada de los primeros 649 Pokémon. Incluye características como búsqueda por nombre o número, visualización de estadísticas, tipos, descripciones en español y reproducción de sonidos de Pokémon.
 
-## 🌐 Demo
+## � Vista Previa
 
-Puedes ver una versión en vivo del proyecto aquí:
-[Ver Demo](https://my-pokedex-2w1u.onrender.com/)
+[![Vista previa de la Pokédex](https://i.imgur.com/your-screenshot.png)](https://my-pokedex-2w1u.onrender.com/)
+
+> *Haz clic en la imagen para probar la aplicación en vivo*
 
 ## 🚀 Características
 
@@ -29,16 +30,12 @@ Puedes ver una versión en vivo del proyecto aquí:
 - ResponsiveVoice para la síntesis de voz
 - Desplegado en Render
 
-## 🚀 Despliegue
+## 🚀 Demo en Vivo
 
-Este proyecto está desplegado en [Render](https://render.com/). Si deseas desplegar tu propia versión:
+Puedes probar la aplicación ahora mismo en:
+[![Ver Demo](https://img.shields.io/badge/Ver_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://my-pokedex-2w1u.onrender.com/)
 
-1. Haz fork de este repositorio
-2. Crea una cuenta en [Render](https://render.com/)
-3. Conecta tu repositorio de GitHub
-4. Sigue las instrucciones de configuración de Render
-
-## 📦 Instalación local
+## �️ Instalación local
 
 1. Clona el repositorio:
    ```bash
@@ -58,14 +55,16 @@ Este proyecto está desplegado en [Render](https://render.com/). Si deseas despl
 
 4. Abre tu navegador en `http://localhost:3000`
 
-## 🎮 Uso
+## 🎮 Cómo usar
 
 1. **Búsqueda de Pokémon**:
    - Usa la barra de búsqueda para buscar un Pokémon por nombre o número (1-649)
    - Navega entre Pokémon usando los botones de navegación
 
-2. **Reproducir sonido**:
-   - Haz clic en el botón de altavoz para escuchar el sonido del Pokémon
+2. **Características interactivas**:
+   - 🔊 Reproduce el sonido del Pokémon
+   - 📢 Escucha la descripción con síntesis de voz
+   - 📱 Diseño adaptativo para móviles y escritorio
 
 ## 📝 Licencia
 
@@ -74,3 +73,5 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 ---
 
 Desarrollado con ❤️ por [RodXorDevX](https://github.com/RodXorDevX)
+
+[![Versión](https://img.shields.io/badge/versión-1.0.0-blue)](https://github.com/RodXorDevX/My-Pokedex/releases) [![Último commit](https://img.shields.io/github/last-commit/RodXorDevX/My-Pokedex)](https://github.com/RodXorDevX/My-Pokedex/commits/main)
