@@ -11,9 +11,14 @@ export default defineConfig({
     strictPort: true,
   },
   preview: {
-    port: process.env.PORT || 3000,
     host: true,
+    port: process.env.PORT || 3000,
     strictPort: true,
+    allowedHosts: [
+      'my-pokedex-2w1u.onrender.com',
+      'localhost',
+      '127.0.0.1',
+    ],
   },
   build: {
     outDir: 'dist',
