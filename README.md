@@ -6,7 +6,9 @@ Una aplicación web interactiva de Pokédex que te permite explorar información
 
 ## 🌟 Vista Previa
 
-![Vista previa de la Pokédex](https://i.imgur.com/ER7vT9b)
+[![Vista previa de la Pokédex](https://i.imgur.com/IiqMHtO.png)](https://my-pokedex-2w1u.onrender.com/)
+
+> *Haz clic en la imagen para probar la aplicación en vivo*
 
 ## 🚀 Características
 
