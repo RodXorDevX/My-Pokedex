@@ -12,6 +12,11 @@ Una aplicación web interactiva de Pokédex que te permite explorar información
 - **Diseño responsivo** que se adapta a diferentes tamaños de pantalla
 - **Animaciones** de sprites de Pokémon cuando están disponibles
 
+## 🌐 Demo
+
+Puedes ver una versión en vivo del proyecto en:
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-success?style=for-the-badge)](https://rodxordevx.github.io/My-Pokedex/)
+
 ## 🛠️ Tecnologías utilizadas
 
 - React 18
@@ -20,6 +25,7 @@ Una aplicación web interactiva de Pokédex que te permite explorar información
 - Web Speech API para la funcionalidad de voz
 - PokeAPI para los datos de Pokémon
 - ResponsiveVoice para la síntesis de voz
+- GitHub Pages para el despliegue
 
 ## 📦 Instalación
 
@@ -40,6 +46,27 @@ Una aplicación web interactiva de Pokédex que te permite explorar información
    ```
 
 4. Abre tu navegador en `http://localhost:5173`
+
+## 🚀 Despliegue
+
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages. Para desplegar tu propia copia:
+
+1. Asegúrate de tener instalado `gh-pages` (ya viene incluido en las dependencias de desarrollo):
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+
+2. Actualiza la propiedad `homepage` en el `package.json` con tu nombre de usuario y repositorio:
+   ```json
+   "homepage": "https://tunombredeusuario.github.io/My-Pokedex"
+   ```
+
+3. Ejecuta el comando de despliegue:
+   ```bash
+   npm run deploy
+   ```
+
+4. Ve a la configuración de tu repositorio en GitHub, selecciona la pestaña "Pages" y asegúrate de que esté configurado para desplegar desde la rama `gh-pages`.
 
 ## 🎮 Uso
 
@@ -67,20 +94,10 @@ Una aplicación web interactiva de Pokédex que te permite explorar información
 ### ResponsiveVoice
 - Utilizado para la síntesis de voz que lee la información del Pokémon
 
-## 🚀 Despliegue
-
-El proyecto está configurado para desplegarse en GitHub Pages. Para desplegar:
-
-```bash
-npm run deploy
-```
-
 ## 📝 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-## 🙏 Créditos
+---
 
-- [RodXorDevX](https://github.com/RodXorDevX) - Desarrollador
-- [PokeAPI](https://pokeapi.co/) - Por proporcionar la API de Pokémon
-- [PokéAPI-Sounds](https://pokedex-api-sounds.onrender.com/) - Por los sonidos de Pokémon
+Desarrollado con ❤️ por [RodXorDevX](https://github.com/RodXorDevX)

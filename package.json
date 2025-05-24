@@ -2,7 +2,7 @@
   "name": "pokedex",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://RodXorDevX.github.io/Pokedex",
+  "homepage": "https://RodXorDevX.github.io/My-Pokedex",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,4 +27,4 @@
     "gh-pages": "^6.1.1",
     "vite": "^5.1.6"
   }
-} 
+}
