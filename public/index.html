@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Pokédex" />
+    <title>Pokédex</title>
+    
+    <!-- Cargar ResponsiveVoice antes de la aplicación -->
+    <script>
+      // Variable global para rastrear el estado de carga
+      window.responsiveVoiceLoaded = false;
+      
+      // Función que se ejecutará cuando ResponsiveVoice esté listo
+      window.onResponsiveVoiceReady = function() {
+        console.log('ResponsiveVoice listo para usar');
+        window.responsiveVoiceLoaded = true;
+        
+        // Disparar un evento personalizado cuando esté listo
+        const event = new Event('responsiveVoiceReady');
+        window.dispatchEvent(event);
+      };
+      
+      // Función para manejar errores de carga
+      function handleResponsiveVoiceError() {
+        console.error('Error al cargar ResponsiveVoice');
+        window.responsiveVoiceLoaded = false;
+      }
+    </script>
+    
+    <!-- Cargar ResponsiveVoice con manejo de errores -->
+    <script 
+      src="https://code.responsivevoice.org/responsivevoice.js?key=7SIkHUvZ&onload=onResponsiveVoiceReady"
+      onerror="handleResponsiveVoiceError()"
+      async
+    ></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

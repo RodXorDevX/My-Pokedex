@@ -1,0 +1,11 @@
+/* El fondo ahora se maneja en Pokedex.css con el video */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2c3e50;
+}
