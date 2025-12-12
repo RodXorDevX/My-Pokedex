@@ -188,26 +188,76 @@ main {
   z-index: 1;
 }
 
-/* Estilos para pantallas pequeñas */
+/* Ajuste para centrar div.datos y mantener el ancho de pokedex.png */
+.datos {
+  width: 100%;
+  max-width: 425px; /* Ancho máximo igual al de pokedex.png */
+  margin: 0 auto; /* Centrado horizontal */
+  text-align: center;
+}
+
 @media (max-width: 768px) {
+  .datos {
+    width: 90%; /* Ajuste para pantallas pequeñas */
+    max-width: 425px;
+    margin: 0 auto;
+  }
+
+  .pokedex-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
   .pokedex {
     max-width: 100%;
+    padding: 10px;
   }
-  
+
   .pokemon_image {
-    height: 15%;
+    height: 25%;
+    transform: translate(-50%, 10%);
   }
-  
+
   .pokemon_data {
-    font-size: 1rem;
+    font-size: clamp(10px, 4vw, 20px);
+    right: 20%;
   }
-  
-  .input_search {
-    font-size: 0.9rem;
+
+  .form {
+    width: 80%;
+    left: 10%;
   }
-  
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    transform: translate(-50%, 0);
+  }
+
   .button {
-    font-size: 0.9rem;
-    padding: 3%;
+    width: 100%;
+    font-size: clamp(10px, 4vw, 1rem);
+  }
+}
+
+/* Ajuste para vista desktop: distribución uniforme */
+@media (min-width: 1024px) {
+  .pokedex-container {
+    display: flex;
+    justify-content: space-evenly; /* Espacio uniforme entre elementos */
+    align-items: center;
+    padding: 20px;
+  }
+
+  .pokedex {
+    flex: 1;
+    max-width: 425px; /* Mantener el ancho máximo */
+  }
+
+  .datos {
+    flex: 1;
+    max-width: 425px; /* Mantener el ancho máximo */
+    margin: 0 20px; /* Espaciado entre elementos */
   }
 }

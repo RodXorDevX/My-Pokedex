@@ -1,0 +1,68 @@
+/* Contenedor principal del botón de Pokébola */
+.pokeball-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+}
+
+/* Texto y flecha */
+.arrow-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    animation: bounce 2s infinite;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    border: solid #333;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin-top: 0.5rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Botón de Pokébola */
+.pokeball-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.pokeball-icon {
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+}
+
+.pokeball-button:active .pokeball-icon {
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

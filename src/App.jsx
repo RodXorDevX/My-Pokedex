@@ -4,7 +4,7 @@ import BackgroundMusic from './components/BackgroundMusic';
 import { getBackgroundImagePath } from './utils/assetHelper';
 import './App.css';
 
-function App() {
+function App({ audioEnabled }) {
   const backgroundMusicRef = useRef(null);
 
   // Precargar la imagen de fondo
@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div className="app-container">
-      <BackgroundMusic ref={backgroundMusicRef} />
-      <Pokedex backgroundMusicRef={backgroundMusicRef} />
+      <BackgroundMusic ref={backgroundMusicRef} audioEnabled={audioEnabled} />
+      <Pokedex backgroundMusicRef={backgroundMusicRef} audioEnabled={audioEnabled} />
     </div>
   );
 }

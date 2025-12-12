@@ -4,15 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #3a444d;
-    background: linear-gradient(135deg, #e8e8e8 0%, #c0c0c0 100%);
+    color: #fff; /* Texto blanco para contraste */
+    background: linear-gradient(135deg, #d32f2f 0%, #a40000 100%); /* Rojo degradado similar a la Pokédex */
     border-radius: 15px;
     margin-left: 2em;
     width: 25em;
     min-height: 40em;
     max-height: 40em;
-    border: 10px solid #d32f2f;
-    box-shadow: 5px 5px 0 #888, 8px 8px 0 #333;
+    box-shadow: 5px 5px 0 #660000, 8px 8px 0 #330000; /* Sombras más oscuras */
     position: relative;
     overflow: hidden;
     font-family: 'Oxanium', sans-serif;
