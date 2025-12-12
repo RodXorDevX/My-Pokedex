@@ -220,23 +220,26 @@ main {
 
   .pokemon_data {
     font-size: clamp(10px, 4vw, 20px);
-    right: 20%;
+    /*right: 20%;*/
   }
 
   .form {
-    width: 80%;
-    left: 10%;
+  
+    width: 60%;
+    left: 17%;
   }
 
   .buttons {
-    flex-direction: column;
+    flex-direction:row;
+    justify-content: space-evenly;    
     gap: 10px;
-    width: 80%;
+    width: 80%;    
     transform: translate(-50%, 0);
   }
 
   .button {
-    width: 100%;
+    width: 30%;
+    height: 80%;
     font-size: clamp(10px, 4vw, 1rem);
   }
 }
